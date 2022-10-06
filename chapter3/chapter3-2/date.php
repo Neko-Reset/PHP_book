@@ -1,6 +1,8 @@
 <?php 
   // 時間の取得dateを使う
   // G,i,sの他に呼び出せる英数がある
+  // 日本時間の表示の仕方
+  date_default_timezone_set( "Asia/Tokyo" );
   echo "現在は" . date( "G時 i分 s秒" ) . "です";
 
 // .を使うと文字の連結ができる
