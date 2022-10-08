@@ -1,4 +1,4 @@
-<!-- フォームに入力した内容を取得する -->
+<!-- フォームに入力した内容を取得する！ -->
 <!-- 練習問題 -->
 <form action = "form.php" method = "GET" >
   <label for = "your_name">お名前</label>
