@@ -1,5 +1,7 @@
 お名前:<?php echo htmlspecialchars( $_GET[ "your_name" ] , ENT_QUOTES ); ?>
 メモ:<?php echo htmlspecialchars( $_GET[ "memo" ] , ENT_QUOTES ); ?>
+性別:<?php echo htmlspecialchars( $_GET[ "gender" ] , ENT_QUOTES ); ?>
+
 
 <?php
 // $_REQUEST = グローバル変数
